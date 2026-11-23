@@ -1,0 +1,44 @@
+/*Full page*/
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: #dbe0e6;
+}
+
+/*Main heading*/
+.welcome h1 {
+  margin: 0;
+  font-size: 100px;
+  font-style: italic;
+  color: #2c3e50;
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+}
+
+/*Paragraph text*/
+.welcome p {
+  margin: 10px 0 0 0;
+  font-size: 30px;
+  color: #2d3436;
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}

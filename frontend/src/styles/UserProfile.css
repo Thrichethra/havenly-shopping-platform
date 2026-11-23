@@ -1,0 +1,72 @@
+/*transparent overlay that covers the rest of the page*/
+.profile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16%;
+  height: 100%;
+  background: #2c3e50;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  z-index: 1000;
+  transition: right 0.3s ease-in-out;
+}
+
+/*Content inside the profile overlay*/
+.profile-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Close button*/
+.close-btn {
+  background: #533434;
+  color: #2c3e50;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+/*User profile icon*/
+.user-profile {
+  font-size: 120px;
+  padding-left: 50px;
+}
+
+/*User details*/
+.profile-content p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #dbe0e6;
+  letter-spacing: 1px;
+}
+
+/*Main heading (username)*/
+.profile-content h2 {
+  margin: 10px 0;
+  color: #dbe0e6;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*Labels*/
+.profile-content span {
+  color: #dbe0e6;
+  width: 120px;
+  font-style: normal;
+}
+
+/*Logout button*/
+.profile-content button {
+  padding: 8px 25px;
+  background-color: #dbe0e6;
+  color: #2c3e50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,85 @@
+/*Entire Page*/
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #dbe0e6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Main heading inside the signup container*/
+.signup-container {
+  padding: 2.5rem;
+  max-width: 450px;
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  background-color: #2c3e5065;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.signup-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+  color: #2c3e50;
+}
+
+/*All form labels*/
+.signup-container label {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+/*Form input fields*/
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #2c3e50;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*Providing visual when a user interacts with them*/
+.form-control:focus {
+  outline: none;
+  border-color: #49535e;
+  box-shadow: 0 0 0 3px rgba(74, 136, 203, 0.3);
+}
+
+/*Signup button*/
+.signup-container button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2c3e50;
+  color: #f9f9f9;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.signup-container button:hover {
+  background-color: #49535e;
+  transform: scale(1.02);
+}
+
+/* validation error messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

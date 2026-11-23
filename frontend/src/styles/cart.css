@@ -1,0 +1,178 @@
+/*Entire Page*/
+.cart-page {
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/*Main heading*/
+.cart-page h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/*Flexbox container for the list of cart items*/
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*Individual cart item container*/
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  gap: 20px;
+}
+
+/*Hover effect for a cart item*/
+.cart-item:hover {
+  transform: translateY(-3px);
+}
+
+/*Product image within a cart item*/
+.cart-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+/*Flexbox container for the product name and category details*/
+.cart-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/*Product name heading*/
+.cart-details h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+/*Product category paragraph*/
+.cart-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #62778c;
+}
+
+/*Flexbox container for the quantity adjustment buttons*/
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*Quantity increase/decrease buttons*/
+.qty-btn {
+  padding: 6px 12px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+/*Hover effect for the quantity buttons*/
+.qty-btn:hover {
+  background: #405c79;
+}
+
+/*Displayed quantity value*/
+.qty-value {
+  font-weight: bold;
+  min-width: 20px;
+  text-align: center;
+}
+
+/*Remove button */
+.remove-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+/*Hover effect for the remove button*/
+.remove-btn:hover {
+  background: #c0392b;
+}
+
+/*Cart summary section*/
+.cart-summary {
+  margin-top: 30px;
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Total price text*/
+.cart-total {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/*"Clear Cart" buttons*/
+.clear-btn {
+  padding: 12px 30px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Hover effect for the buttons*/
+.clear-btn:hover {
+  background: #405c79;
+  transform: scale(1.03);
+}
+
+/*"Checkout" buttons*/
+.checkout-btn {
+  padding: 12px 30px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Hover effect for the buttons*/
+.checkout-btn:hover {
+  background: #405c79;
+  transform: scale(1.03);
+}

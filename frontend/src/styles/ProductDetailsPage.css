@@ -1,0 +1,103 @@
+/*Product details page*/
+.product-details-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: #2c3e5065;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/*Product name heading*/
+.product-details-page h1 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/*Product image*/
+.product-details-page img {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto 25px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*General `div` elements, such as price or category*/
+.product-details-page div {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/*Product description paragraph*/
+.product-details-page p {
+  font-size: 1rem;
+  color: #2c3e50;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/*Quantity selector container*/
+.quantity-container {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  font-weight: bold;
+  background-color: #98acc1;
+}
+
+/*Quantity adjustment buttons*/
+.quantity-container button {
+  padding: 10px 18px;
+  border: none;
+  background-color: #2c3e50;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/*Hover effect for the quantity buttons*/
+.quantity-container button:hover {
+  background-color: #5e7387;
+}
+
+/*Quantity display number*/
+.quantity-container span {
+  padding: 10px 20px;
+  min-width: 40px;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+}
+
+/*Add to Cart button*/
+.cart-button {
+  margin-left: 15px;
+  padding: 12px 35px;
+  background-color: #2c3e50;
+  color: #dbe0e6;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/*Hover effect for the "Add to Cart" button*/
+.cart-button:hover {
+  background-color: #637587;
+  transform: translateY(-2px);
+}
+
+/*When clicked for the "Add to Cart" button*/
+.cart-button:active {
+  transform: translateY(1px);
+}
